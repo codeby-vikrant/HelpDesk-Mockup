@@ -180,7 +180,7 @@ const NewTicketPage = () => {
                 }}
               >
                 <div className="recaptcha-wrapper">
-                  <ReCAPTCHA sitekey="YOUR_SITE_KEY" />
+                  <ReCAPTCHA sitekey="6LfdxXcrAAAAAL1OFf58jSjD1vs9otDvQY8n8D-o" />
                 </div>
               </div>
               <button type="submit" className="submit-btn">
