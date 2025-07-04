@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/sign_in.css";
 
 const SignInPage = () => {
@@ -10,10 +11,14 @@ const SignInPage = () => {
         <div className="sign-in-form">
           <input type="text" placeholder="Username" />
           <input type="password" placeholder="Password" />
-          <button>Sign In</button>
+          <Link to="/dashboard">
+            <button>Sign In</button>
+          </Link>
           <div className="sign-in-links">
             <p className="forgot-password">Forgot Password</p>
-            <p className="sign-up">Sign Up</p>
+            <Link to="/signup" className="sign-up-link">
+              <p className="sign-up">Sign Up</p>
+            </Link>
           </div>
         </div>
       </div>
