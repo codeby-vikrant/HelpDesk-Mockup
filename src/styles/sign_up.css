@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.sign-up-page-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #55d6c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-card {
+  width: 1200px;
+  height: 650px;
+  background-color: #a2e2d8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-header h1 {
+  display: flex;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  margin-top: -20px;
+}
+
+.sign-up-header p {
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding-left: 150px;
+}
+
+.sign-up-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.sign-up-form input {
+  width: 600px;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.sign-up-form input::placeholder {
+  font-size: 1.5rem;
+  color: black;
+  padding-left: 20px;
+}
+
+.sign-up-form button {
+  width: 300px;
+  height: 60px;
+  border-radius: 15px;
+  color: white;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  border: none;
+  background-color: #296ef2;
+  cursor: pointer;
+}
+
+.sign-up-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 490px;
+  margin-top: 30px;
+}
+
+.forgot-password {
+  color: #e92100;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sign-up {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.sign-in-link {
+  text-decoration: none;
+  color: black;
+}
