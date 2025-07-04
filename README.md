@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🎫 HelpDesk Mockup
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/React-18.2-blue?logo=react)](https://reactjs.org/)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://help-desk-mockup.vercel.app/)
 
-## Available Scripts
+A sleek, responsive **React-based Help Desk ticketing UI** for creating support tickets with a modern form layout, file upload option, reCAPTCHA, and routing between screens.  
+Ideal for UI/UX prototyping, developer onboarding, or starter helpdesk templates.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 [https://helpdesk-mockup.vercel.app/](https://helpdesk-mockup.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖼️ Preview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> ![CleanShot 2025-07-04 at 22 26 29@2x](https://github.com/user-attachments/assets/86c36cdd-6295-46b4-a59d-13ae4022a131)
+> ![CleanShot 2025-07-04 at 22 27 15@2x](https://github.com/user-attachments/assets/d2ba5f62-85df-43c9-bfbe-91c362b9b151)
+> ![CleanShot 2025-07-04 at 22 27 49@2x](https://github.com/user-attachments/assets/d757bd39-226a-4567-b689-9d0450cd128e)
+> ![CleanShot 2025-07-04 at 22 32 58@2x](https://github.com/user-attachments/assets/eeb02d78-1b89-4dde-895c-407f5b6ec607)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## ✨ Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ✅ **Modern Form Layout** using Flexbox
+- ✅ **Horizontal and vertical label alignment**
+- ✅ **Attach file** 📎 at the bottom right of the description
+- ✅ **Google reCAPTCHA v2** integration
+- ✅ **Routing** between screens via React Router v6
+- ✅ Built-in structure for Sign In, Sign Up, Dashboard, and Ticket form
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧩 Screens
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `SignInPage` – User login  
+- `SignUpPage` – Registration form  
+- `UserDashboardPage` – Ticket list or overview  
+- `NewTicketPage` – Ticket creation form  
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 🔧 Prerequisites
 
-### Code Splitting
+- Node.js `v14+`
+- npm or Yarn
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📦 Installation
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/codeby-vikrant/HelpDesk-Mockup.git
+cd HelpDesk-Mockup
+npm install
